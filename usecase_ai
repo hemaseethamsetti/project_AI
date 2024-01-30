@@ -1,0 +1,237 @@
+<mxfile modified="2024-01-28T07:50:36.127Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EDIyNjJ9PJbgPbfS5Wu7" version="23.0.2" type="device">
+  <diagram id="E3ttDfYas0lBGuGD57UE" name="Page-1">
+    <mxGraphModel dx="1900" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-43" value="&lt;div&gt;AI Health Advisor&lt;/div&gt;&lt;div&gt;Authentication Service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="-629" y="45" width="179" height="835" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2amY8WhetxQ9lj7_Z2XX-45" target="2amY8WhetxQ9lj7_Z2XX-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-45" value="Non-Registered User" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="111.25" width="30" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-46" value="&lt;div&gt;Create an Account&lt;/div&gt;&lt;div&gt;AI001-002&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-583" y="113.75" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-47" value="&lt;div&gt;Login&lt;/div&gt;&lt;div&gt;AI001-003&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-592.5" y="270" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-48" value="&lt;div&gt;Login&lt;/div&gt;&lt;div&gt;AI001-004&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-595.5" y="400" width="108" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-49" value="&lt;div&gt;New conversation&lt;/div&gt;&lt;div&gt;AI001-006&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-594" y="595" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-52" value="&lt;div&gt;User with Active&amp;nbsp; ID&lt;/div&gt;&lt;div&gt;(Not Logged-in)&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="470" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-56" value="&lt;div&gt;User with Active&amp;nbsp; ID&lt;/div&gt;&lt;div&gt;(Logged-in)&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="713" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-58" value="&lt;div&gt;Reset Password&lt;/div&gt;&lt;div&gt;AI001-005&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-611.5" y="480" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-59" value="&lt;div&gt;Logout&lt;/div&gt;AI001-008" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-583.75" y="728" width="85" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2amY8WhetxQ9lj7_Z2XX-61" target="2amY8WhetxQ9lj7_Z2XX-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-61" value="User with Inactive&amp;nbsp; ID&lt;br&gt;(Registered User)" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-63" value="&lt;div&gt;User opens the webpage and click on &#39;Create an account&#39;&lt;/div&gt;&lt;div&gt;Registration page appears.&lt;br&gt;&lt;/div&gt;&lt;div&gt;User supplies his/her name, a working email and a preferred password.&lt;/div&gt;&lt;div&gt;Page displays a message to check e-mail and prompts for activation code.&lt;/div&gt;&lt;div&gt;User enters the activation code&lt;/div&gt;&lt;div&gt;Page displays success message and redirects to login page&lt;br&gt;&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;labelBackgroundColor=#D5E8D4;comic=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="111.25" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=12;dashed=1;" parent="1" source="2amY8WhetxQ9lj7_Z2XX-65" target="2amY8WhetxQ9lj7_Z2XX-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-65" value="&lt;div&gt;Resend Activation code&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-611.5" y="340" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" parent="1" source="2amY8WhetxQ9lj7_Z2XX-68" target="2amY8WhetxQ9lj7_Z2XX-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-67" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="2amY8WhetxQ9lj7_Z2XX-66" vertex="1" connectable="0">
+          <mxGeometry x="0.5636" relative="1" as="geometry">
+            <mxPoint x="50" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-68" value="&lt;div&gt;Send Activation code&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-603" y="190" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-70" value="User opens the webpage and click on &#39;Login&#39;&lt;br&gt;&lt;div&gt;&lt;span&gt;Login page appears.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;User supplies Email ID and password&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Page displays a message to check e-mail and prompts for activation code&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;User enters the activation code&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Page displays success message and redirects to login page&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;labelBackgroundColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="255" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-72" value="&lt;div&gt;User opens login web page&lt;/div&gt;&lt;div&gt;User supplies his/her Email ID which was given during registration&amp;nbsp; and correct password&lt;/div&gt;&lt;div&gt;User click on login button to enter into the system.&lt;/div&gt;&lt;div&gt;User profile page appears.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;labelBackgroundColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="390" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;fontSize=12;" parent="1" source="2amY8WhetxQ9lj7_Z2XX-76" target="2amY8WhetxQ9lj7_Z2XX-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-76" value="&lt;div&gt;User forgot the password associated with the Email-ID&lt;br&gt;&lt;/div&gt;&lt;div&gt;User opens login page&lt;/div&gt;&lt;div&gt;User clicks on forgot password button&lt;/div&gt;&lt;div&gt;User enters Email ID and new password&lt;br&gt;&lt;/div&gt;&lt;div&gt;Page displays a message to check-email and prompts for activation code.&lt;/div&gt;&lt;div&gt;User enters the activation code&lt;/div&gt;&lt;div&gt;Page displays success message and redirects to login page&lt;/div&gt;" style="text;html=1;labelBackgroundColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="470" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-78" value="&lt;div&gt;User clicks on &quot;New Conversation&quot;.&lt;/div&gt;&lt;div&gt;&lt;/div&gt;user access platform and create a new conversation by entering their text in chat interface.&lt;br&gt;This conversation is saved if user already have an account" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;labelBackgroundColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="595" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-80" value="User clicks on Logout.&lt;br&gt;Page redirects to login web page&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;labelBackgroundColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="735.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-81" value="Usecases for AI Health advisor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-780" y="890" width="548" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-82" value="&lt;div style=&quot;font-size: 12px&quot;&gt;Project Code: AI001&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Author S.Hema&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Date: 17 jan 2024&lt;/div&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Version: 1.0&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-746" y="1000" width="480" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-83" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-549.9975568084373" y="330.00085255531917" as="geometry">
+            <mxPoint x="50" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2amY8WhetxQ9lj7_Z2XX-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;fontSize=12;" parent="1" source="2amY8WhetxQ9lj7_Z2XX-59" target="2amY8WhetxQ9lj7_Z2XX-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-715" y="162.25" />
+              <mxPoint x="-660" y="162.25" />
+              <mxPoint x="-660" y="75.25" />
+            </Array>
+            <mxPoint x="-715" y="132.25" as="sourcePoint" />
+            <mxPoint x="-600" y="75.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-6" value="Chat with AI&lt;br&gt;A1001-001" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-591.5" y="60" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-490" y="72" as="targetPoint" />
+            <mxPoint x="-390" y="72" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-23" value="&lt;div&gt;User opens the website&amp;nbsp; and AI automatically greets and asks user to tell one specific health problem they have.&lt;/div&gt;&lt;div&gt;user can enter their questions in chat interface.&lt;/div&gt;&lt;div&gt;AI responds and chat continues.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;labelBackgroundColor=#D5E8D4;comic=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="41.25" width="620" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-437.25" y="422" as="sourcePoint" />
+            <mxPoint x="-492.25" y="422" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-447.25" y="422" />
+              <mxPoint x="-447.25" y="422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-430" y="289.5" as="sourcePoint" />
+            <mxPoint x="-485" y="289.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-450" y="289.5" />
+              <mxPoint x="-450" y="289.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;fontSize=12;exitX=0;exitY=0.387;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2amY8WhetxQ9lj7_Z2XX-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-434" y="129.5" as="sourcePoint" />
+            <mxPoint x="-489" y="129.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-682.5" y="499.5" />
+              <mxPoint x="-682.5" y="499.5" />
+            </Array>
+            <mxPoint x="-702" y="499.5" as="sourcePoint" />
+            <mxPoint x="-611.5" y="499.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-718" y="420" />
+            </Array>
+            <mxPoint x="-718" y="470" as="sourcePoint" />
+            <mxPoint x="-603" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-437.5" y="619.5" />
+              <mxPoint x="-437.5" y="619.5" />
+            </Array>
+            <mxPoint x="-417.5" y="619.5" as="sourcePoint" />
+            <mxPoint x="-482.5" y="620.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-43" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-702.51" y="751.05" as="sourcePoint" />
+            <mxPoint x="-589.9973824533927" y="753.0017757102787" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-702.51" y="751.05" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-453.75" y="750" />
+              <mxPoint x="-453.75" y="751" />
+            </Array>
+            <mxPoint x="-433.75" y="750" as="sourcePoint" />
+            <mxPoint x="-498.75" y="751" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-45" value="Conversations with cody&lt;br&gt;AI001-007" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="660" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-46" value="User clicks on particular question he asked under Conversation with cody during the conversation with ai.&lt;br&gt;page displays the entire chat or history related to that query .&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;labelBackgroundColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="673" width="580" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.002;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="FA79dYFYE5545PbK9RvH-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-712.51" y="678" as="sourcePoint" />
+            <mxPoint x="-599.9973824533927" y="679.9517757102788" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-712.5" y="708" />
+              <mxPoint x="-712.51" y="678" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-48" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-722.51" y="615" as="sourcePoint" />
+            <mxPoint x="-600" y="615" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-720" y="710" />
+              <mxPoint x="-722.51" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FA79dYFYE5545PbK9RvH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-420" y="687.5" />
+              <mxPoint x="-420" y="688.5" />
+            </Array>
+            <mxPoint x="-430" y="687.5" as="sourcePoint" />
+            <mxPoint x="-495" y="688.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAdWZxzAyfbvX1gAh3cs-31" value="&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="74" y="2040" width="480" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
