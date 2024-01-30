@@ -5,6 +5,7 @@ Authentication Service is part of AI health Advisor.
 ## Use Cases ##
 
 ### Use Case Diagram ###
+![image](https://github.com/hemaseethamsetti/project_AI/assets/147379636/a09334b7-92b6-4cbc-a57d-8d0c10b91e3b)
 
 
 
@@ -230,7 +231,7 @@ Authentication Service is part of AI health Advisor.
 * Sequence:
 
 1. User click on Logout.
-2. Page displays a message ‘successfully Logout ‘ and the login page appears.
+2. Page displays a message 'successfully Logout' and the login page appears.
 
 * Post Condition:
 
@@ -245,5 +246,7 @@ Authentication Service is part of AI health Advisor.
 ## Workflow ##
 
 ### Workflow Diagram ###
+![image](https://github.com/hemaseethamsetti/project_AI/assets/147379636/0245f1ff-e6d7-42dd-9bac-6d0696e288d1)
+
 
 
