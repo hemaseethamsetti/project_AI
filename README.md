@@ -5,7 +5,8 @@ Authentication Service is part of AI health Advisor.
 ## Use Cases ##
 
 ### Use Case Diagram ###
-![image](https://github.com/hemaseethamsetti/project_AI/assets/147400262/e1b945c5-fe4f-4feb-9f99-bcd348cf2ff2)
+![image](https://github.com/hemaseethamsetti/project_AI/assets/147400262/72b3f8da-a6ae-49af-ac9a-c8e0a802d448)
+
 
 
 
